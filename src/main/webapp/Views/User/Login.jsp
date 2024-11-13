@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng Nhập- Người dùng</title>
+    <title>Đăng Nhập</title>
     <!-- Link Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <style>
@@ -94,7 +94,7 @@
 <body>
 
 <div class="login-container">
-    <h2>Đăng Nhập- Người dùng</h2>
+    <h2>Đăng Nhập</h2>
     <form>
         <label for="username">Tên đăng nhập hoặc email *</label>
         <input type="text" id="username" placeholder="Tên đăng nhập của bạn" required>
