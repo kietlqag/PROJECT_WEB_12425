@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,7 +15,7 @@
     <meta name="description" content="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/PROJECT/bootstrap5/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,36 +122,6 @@
       </symbol>
     </svg>
 
-    <div id="preloader" class="preloader-container">
-      <div class="book">
-        <div class="inner">
-          <div class="left"></div>
-          <div class="middle"></div>
-          <div class="right"></div>
-        </div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </div>
-
     <div class="search-popup">
       <div class="search-popup-container">
 
@@ -199,7 +172,7 @@
             </div>
             <div class="col-md-4 border-start border-end">
               <p class="fs-6 my-2 text-center">Summer sale discount off 60% off! <a class="text-decoration-underline"
-                  href="shop.html">Shop Now</a></p>
+                  href="/PROJECT/bootstrap5/shop.html">Shop Now</a></p>
             </div>
             <div class="col-md-4">
               <p class="fs-6 my-2 text-center">2-3 business days delivery & free returns</p>
@@ -211,7 +184,7 @@
       <nav id="header-nav" class="navbar navbar-expand-lg py-3">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="images/main-logo.png" class="logo">
+            <img src="/PROJECT/bootstrap5/images/main-logo.png" class="logo">
           </a>
           <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -222,7 +195,7 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
             <div class="offcanvas-header px-4 pb-0">
               <a class="navbar-brand" href="index.html">
-                <img src="images/main-logo.png" class="logo">
+                <img src="/PROJECT/bootstrap5/images/main-logo.png" class="logo">
               </a>
               <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
                 data-bs-target="#bdNavbar"></button>
@@ -465,7 +438,7 @@
     </header>
 
     <section id="billboard" class="position-relative d-flex align-items-center py-5 bg-light-gray"
-      style="background-image: url(images/banner-image-bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 800px;">
+      style="background-image: url(/PROJECT/bootstrap5/images/banner-image-bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 800px;">
       <div class="position-absolute end-0 pe-0 pe-xxl-5 me-0 me-xxl-5 swiper-next main-slider-button-next">
         <svg class="chevron-forward-circle d-flex justify-content-center align-items-center p-2" width="80" height="80">
           <use xlink:href="#alt-arrow-right-outline"></use>
@@ -490,7 +463,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                   <div class="image-holder">
-                    <img src="images/banner-image2.png" class="img-fluid" alt="banner">
+                    <img src="/PROJECT/bootstrap5/images/banner-image2.png" class="img-fluid" alt="banner">
                   </div>
                 </div>
               </div>
@@ -508,7 +481,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                   <div class="image-holder">
-                    <img src="images/banner-image1.png" class="img-fluid" alt="banner">
+                    <img src="/PROJECT/bootstrap5/images/banner-image1.png" class="img-fluid" alt="banner">
                   </div>
                 </div>
               </div>
@@ -526,7 +499,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                   <div class="image-holder">
-                    <img src="images/banner-image.png" class="img-fluid" alt="banner">
+                    <img src="/PROJECT/bootstrap5/images/banner-image.png" class="img-fluid" alt="banner">
                   </div>
                 </div>
               </div>
@@ -618,7 +591,7 @@
                 <div class="position-absolute">
                   <p class="bg-primary py-1 px-3 fs-6 text-white rounded-2">10% off</p>
                 </div>
-                <img src="images/product-item1.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item1.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">House of Sky Breath</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -661,7 +634,7 @@
             </div>
             <div class="swiper-slide">
               <div class="card position-relative p-4 border rounded-3">
-                <img src="images/product-item2.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item2.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">Heartland Stars</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -705,7 +678,7 @@
             </div>
             <div class="swiper-slide">
               <div class="card position-relative p-4 border rounded-3">
-                <img src="images/product-item3.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item3.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">Heavenly Bodies</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -752,7 +725,7 @@
                 <div class="position-absolute">
                   <p class="bg-primary py-1 px-3 fs-6 text-white rounded-2">10% off</p>
                 </div>
-                <img src="images/product-item4.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item4.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">His Saving Grace</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -796,7 +769,7 @@
             </div>
             <div class="swiper-slide">
               <div class="card position-relative p-4 border rounded-3">
-                <img src="images/product-item5.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item5.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">My Dearest Darkest</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -840,7 +813,7 @@
             </div>
             <div class="swiper-slide">
               <div class="card position-relative p-4 border rounded-3">
-                <img src="images/product-item6.png" class="img-fluid shadow-sm" alt="product item">
+                <img src="/PROJECT/bootstrap5/images/product-item6.png" class="img-fluid shadow-sm" alt="product item">
                 <h6 class="mt-4 mb-0 fw-bold"><a href="single-product.html">The Story of Success</a></h6>
                 <div class="review-content d-flex">
                   <p class="my-2 me-2 fs-6 text-black-50">Lauren Asher</p>
@@ -889,12 +862,12 @@
     </section>
 
     <section id="limited-offer" class="padding-large"
-      style="background-image: url(images/banner-image-bg-1.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 800px;">
+      style="background-image: url(/PROJECT/bootstrap5/images/banner-image-bg-1.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 800px;">
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6 text-center">
             <div class="image-holder">
-              <img src="images/banner-image3.png" class="img-fluid" alt="banner">
+              <img src="/PROJECT/bootstrap5/images/banner-image3.png" class="img-fluid" alt="banner">
             </div>
           </div>
           <div class="col-md-5 offset-md-1 mt-5 mt-md-0 text-center text-md-start">
@@ -937,7 +910,7 @@
               </div>
               <div class="items-lists">
                 <div class="item d-flex">
-                  <img src="images/product-item2.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item2.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Echoes of the Ancients</a></h6>
                     <div class="review-content d-flex">
@@ -966,7 +939,7 @@
                 </div>
                 <hr class="gray-400">
                 <div class="item d-flex">
-                  <img src="images/product-item1.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item1.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">The Midnight Garden</a></h6>
                     <div class="review-content d-flex">
@@ -994,7 +967,7 @@
                 </div>
                 <hr>
                 <div class="item d-flex">
-                  <img src="images/product-item3.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item3.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Shadow of the Serpent</a></h6>
                     <div class="review-content d-flex">
@@ -1031,7 +1004,7 @@
               </div>
               <div class="items-lists">
                 <div class="item d-flex">
-                  <img src="images/product-item4.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item4.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Whispering Winds</a></h6>
                     <div class="review-content d-flex">
@@ -1059,7 +1032,7 @@
                 </div>
                 <hr class="gray-400">
                 <div class="item d-flex">
-                  <img src="images/product-item5.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item5.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">The Forgotten Realm</a></h6>
                     <div class="review-content d-flex">
@@ -1087,7 +1060,7 @@
                 </div>
                 <hr>
                 <div class="item d-flex">
-                  <img src="images/product-item6.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item6.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Moonlit Secrets</a></h6>
                     <div class="review-content d-flex">
@@ -1123,7 +1096,7 @@
               </div>
               <div class="items-lists">
                 <div class="item d-flex">
-                  <img src="images/product-item7.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item7.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">The Crystal Key</a></h6>
                     <div class="review-content d-flex">
@@ -1151,7 +1124,7 @@
                 </div>
                 <hr class="gray-400">
                 <div class="item d-flex">
-                  <img src="images/product-item8.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item8.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Starlight Sonata</a></h6>
                     <div class="review-content d-flex">
@@ -1179,7 +1152,7 @@
                 </div>
                 <hr>
                 <div class="item d-flex">
-                  <img src="images/product-item9.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item9.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Tales of the Enchanted Forest</a></h6>
                     <div class="review-content d-flex">
@@ -1215,7 +1188,7 @@
               </div>
               <div class="items-lists">
                 <div class="item d-flex">
-                  <img src="images/product-item10.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item10.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">The Phoenix Chronicles</a></h6>
                     <div class="review-content d-flex">
@@ -1244,7 +1217,7 @@
                 </div>
                 <hr class="gray-400">
                 <div class="item d-flex">
-                  <img src="images/product-item11.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item11.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Dreams of Avalon</a></h6>
                     <div class="review-content d-flex">
@@ -1273,7 +1246,7 @@
                 </div>
                 <hr>
                 <div class="item d-flex">
-                  <img src="images/product-item12.png" class="img-fluid shadow-sm" alt="product item">
+                  <img src="/PROJECT/bootstrap5/images/product-item12.png" class="img-fluid shadow-sm" alt="product item">
                   <div class="item-content ms-3">
                     <h6 class="mb-0 fw-bold"><a href="single-product.html">Legends of the Dragon Isles</a></h6>
                     <div class="review-content d-flex">
@@ -1316,7 +1289,7 @@
           <div class="col-md-4">
             <div class="card mb-4 border-0 rounded-3 position-relative">
               <a href="shop.html">
-                <img src="images/category1.jpg" class="img-fluid rounded-3" alt="cart item">
+                <img src="/PROJECT/bootstrap5/images/category1.jpg" class="img-fluid rounded-3" alt="cart item">
                 <h6 class=" position-absolute bottom-0 bg-primary m-4 py-2 px-3 rounded-3"><a href="shop.html"
                     class="text-white">Romance</a></h6>
               </a>
@@ -1325,7 +1298,7 @@
           <div class="col-md-4">
             <div class="card text-center mb-4 border-0 rounded-3">
               <a href="shop.html">
-                <img src="images/category2.jpg" class="img-fluid rounded-3" alt="cart item">
+                <img src="/PROJECT/bootstrap5/images/category2.jpg" class="img-fluid rounded-3" alt="cart item">
                 <h6 class=" position-absolute bottom-0 bg-primary m-4 py-2 px-3 rounded-3"><a href="shop.html"
                     class="text-white">Lifestyle</a></h6>
               </a>
@@ -1334,7 +1307,7 @@
           <div class="col-md-4">
             <div class="card text-center mb-4 border-0 rounded-3">
               <a href="shop.html">
-                <img src="images/category3.jpg" class="img-fluid rounded-3" alt="cart item">
+                <img src="/PROJECT/bootstrap5/images/category3.jpg" class="img-fluid rounded-3" alt="cart item">
                 <h6 class=" position-absolute bottom-0 bg-primary m-4 py-2 px-3 rounded-3"><a href="shop.html"
                     class="text-white">Recipe</a></h6>
               </a>
@@ -1345,7 +1318,7 @@
     </section>
 
     <section id="customers-reviews" class="position-relative padding-large"
-      style="background-image: url(images/banner-image-bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 600px;">
+      style="background-image: url(/PROJECT/bootstrap5/images/banner-image-bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; height: 600px;">
       <div class="container offset-md-3 col-md-6 ">
         <div class="position-absolute top-50 end-0 pe-0 pe-xxl-5 me-0 me-xxl-5 swiper-next testimonial-button-next">
           <svg class="chevron-forward-circle d-flex justify-content-center align-items-center p-2" width="80" height="80">
@@ -1494,7 +1467,7 @@
         </div>
         <div class="row">
           <div class="col-md-3 posts mb-4">
-            <img src="images/post-item1.jpg" alt="post image" class="img-fluid rounded-3">
+            <img src="/PROJECT/bootstrap5/images/post-item1.jpg" alt="post image" class="img-fluid rounded-3">
             <a href="blog.html" class="fs-6 text-primary">Books</a>
             <h4 class="card-title mb-2 text-capitalize text-dark"><a href="single-post.html">10 Must-Read Books of the Year: Our Top Picks!</a></h4>
             <p class="mb-2">Dive into the world of cutting-edge technology with our latest blog post, where we highlight
@@ -1502,14 +1475,14 @@
             </p>
           </div>
           <div class="col-md-3 posts mb-4">
-            <img src="images/post-item2.jpg" alt="post image" class="img-fluid rounded-3">
+            <img src="/PROJECT/bootstrap5/images/post-item2.jpg" alt="post image" class="img-fluid rounded-3">
             <a href="blog.html" class="fs-6 text-primary">Books</a>
             <h4 class="card-title mb-2 text-capitalize text-dark"><a href="single-post.html">The Fascinating Realm of Science Fiction</a></h4>
             <p class="mb-2">Explore the intersection of technology and sustainability in our latest blog post. Learn about
               the innovative <span><a class="text-decoration-underline text-black-50" href="single-post.html">Read More</a></span> </p>
           </div>
           <div class="col-md-3 posts mb-4">
-            <img src="images/post-item3.jpg" alt="post image" class="img-fluid rounded-3">
+            <img src="/PROJECT/bootstrap5/images/post-item3.jpg" alt="post image" class="img-fluid rounded-3">
             <a href="blog.html" class="fs-6 text-primary">Books</a>
             <h4 class="card-title mb-2 text-capitalize text-dark"><a href="single-post.html">Finding Love in the Pages of a Book</a></h4>
             <p class="mb-2">Stay ahead of the curve with our insightful look into the rapidly evolving landscape of
@@ -1517,7 +1490,7 @@
             </p>
           </div>
           <div class="col-md-3 posts mb-4">
-            <img src="images/post-item4.jpg" alt="post image" class="img-fluid rounded-3">
+            <img src="/PROJECT/bootstrap5/images/post-item4.jpg" alt="post image" class="img-fluid rounded-3">
             <a href="blog.html" class="fs-6 text-primary">Books</a>
             <h4 class="card-title mb-2 text-capitalize text-dark"><a href="single-post.html">Reading for Mental Health: How Books Can Heal and Inspire</a></h4>
             <p class="mb-2">In today's remote work environment, productivity is key. Discover the top apps and tools that
@@ -1542,7 +1515,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item1.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item1.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1554,7 +1527,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item2.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item2.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1566,7 +1539,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item3.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item3.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1578,7 +1551,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item4.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item4.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1590,7 +1563,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item5.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item5.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1602,7 +1575,7 @@
                     <use xlink:href="#instagram"></use>
                   </svg>
                 </div>
-                <img src="images/insta-item6.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
+                <img src="/PROJECT/bootstrap5/images/insta-item6.jpg" alt="instagram" class="img-fluid rounded-3 insta-image">
               </a>
             </figure>
           </div>
@@ -1617,7 +1590,7 @@
             <div class="row d-flex flex-wrap justify-content-between">
               <div class="col-lg-3 col-sm-6 pb-3">
                 <div class="footer-menu">
-                  <img src="images/main-logo.png" alt="logo" class="img-fluid mb-2">
+                  <img src="/PROJECT/bootstrap5/images/main-logo.png" alt="logo" class="img-fluid mb-2">
                   <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio
                     erat nullam fringilla.</p>
                   <div class="social-links">
@@ -1727,16 +1700,16 @@
             <div class="shipping d-flex">
               <p>We ship with:</p>
               <div class="card-wrap ps-2">
-                <img src="images/dhl.png" alt="visa">
-                <img src="images/shippingcard.png" alt="mastercard">
+                <img src="/PROJECT/bootstrap5/images/dhl.png" alt="visa">
+                <img src="/PROJECT/bootstrap5/images/shippingcard.png" alt="mastercard">
               </div>
             </div>
             <div class="payment-method d-flex">
               <p>Payment options:</p>
               <div class="card-wrap ps-2">
-                <img src="images/visa.jpg" alt="visa">
-                <img src="images/mastercard.jpg" alt="mastercard">
-                <img src="images/paypal.jpg" alt="paypal">
+                <img src="/PROJECT/bootstrap5/images/visa.jpg" alt="visa">
+                <img src="/PROJECT/bootstrap5/images/mastercard.jpg" alt="mastercard">
+                <img src="/PROJECT/bootstrap5/images/paypal.jpg" alt="paypal">
               </div>
             </div>
           </div>

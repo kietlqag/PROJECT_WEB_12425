@@ -110,7 +110,8 @@ body {
 <body>
 
 	<div class="login-container">
-		<h2>Đăng Nhập - Dành Cho Các Nhà Bán Hàng</h2>
+		<h2>Đăng Nhập</h2>
+		<h2>Dành Cho Các Nhà Bán Hàng</h2>
 		<form>
 			<label for="username">Tên đăng nhập hoặc email *</label> <input
 				type="text" id="username" placeholder="Tên đăng nhập của bạn"
