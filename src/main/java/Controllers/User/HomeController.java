@@ -1,4 +1,4 @@
-package Controllers.Admin;
+package Controllers.User;
 
 public class HomeController {
 
