@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ĐĂNG NHẬP | TRANG QUẢN TRỊ</title>
+<title>ADMIN | TRANG QUẢN TRỊ</title>
 
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -47,7 +47,7 @@
 <body class="corporate">
 	<div class="main">
 		<div class="form-container">
-			<h1 class="form-title">ĐĂNG NHẬP</h1>
+			<h1 class="form-title">ADMIN</h1>
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
 					<label for="email" class="col-lg-3 control-label">Tài khoản <span
