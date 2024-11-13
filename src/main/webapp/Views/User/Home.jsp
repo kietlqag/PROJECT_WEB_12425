@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/PROJECT/bootstrap5/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -122,36 +122,6 @@
       </symbol>
     </svg>
 
-    <div id="preloader" class="preloader-container">
-      <div class="book">
-        <div class="inner">
-          <div class="left"></div>
-          <div class="middle"></div>
-          <div class="right"></div>
-        </div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </div>
-
     <div class="search-popup">
       <div class="search-popup-container">
 
@@ -202,7 +172,7 @@
             </div>
             <div class="col-md-4 border-start border-end">
               <p class="fs-6 my-2 text-center">Summer sale discount off 60% off! <a class="text-decoration-underline"
-                  href="shop.html">Shop Now</a></p>
+                  href="/PROJECT/bootstrap5/shop.html">Shop Now</a></p>
             </div>
             <div class="col-md-4">
               <p class="fs-6 my-2 text-center">2-3 business days delivery & free returns</p>

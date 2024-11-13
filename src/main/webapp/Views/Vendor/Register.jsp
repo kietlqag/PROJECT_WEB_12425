@@ -100,7 +100,8 @@ body {
 <body>
 
 	<div class="register-container">
-		<h2>Đăng Ký - Dành Cho Các Nhà Bán Hàng</h2>
+		<h2>Đăng Ký</h2>
+		<h2>Dành Cho Các Nhà Bán Hàng</h2>
 		<form>
 			<label for="email">Email *</label> <input type="email" id="email"
 				placeholder="Email của bạn" required> <label for="username">Tên
