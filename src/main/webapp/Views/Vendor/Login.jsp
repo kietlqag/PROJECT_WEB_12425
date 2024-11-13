@@ -110,7 +110,7 @@ body {
     <div class="login-container">
         <div class="tab">
             <a href="login.jsp" class="active">Sign In</a>
-            <a href="register.jsp">Register</a>
+            <a href="Register.jsp">Register</a>
         </div>
 
         <%
