@@ -1,123 +1,109 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Register Page</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f2f2f2;
-}
-
-.register-container {
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px 40px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.register-container .tab {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.register-container .tab a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #999;
-}
-
-.register-container .tab a.active {
-    color: #ff6666;
-    font-weight: bold;
-}
-
-.register-container h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.register-container label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-    color: #555;
-    font-size: 14px;
-}
-
-.register-container input[type="text"], .register-container input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-.register-container input[type="checkbox"] {
-    margin-right: 8px;
-}
-
-.register-container button {
-    width: 100%;
-    padding: 12px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.register-container button:hover {
-    background-color: #555;
-}
-
-.register-container .privacy-policy {
-    font-size: 14px;
-    color: #555;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f3f3;
+        }
+        .register-container {
+            width: 400px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .register-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .register-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .register-container input[type="email"],
+        .register-container input[type="text"],
+        .register-container input[type="password"] {
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .register-container label {
+            font-size: 16px;
+            color: #333;
+        }
+        .register-container .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .register-container button {
+            padding: 15px;
+            font-size: 16px;
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .register-container button:hover {
+            background-color: #555;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .login-link a {
+            font-size: 16px;
+            color: #f35e64;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            color: #d03444;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="register-container">
-        <div class="tab">
-            <a href="Login.jsp">Sign In</a>
-            <a href="Register.jsp" class="active">Register</a>
-        </div>
+<div class="register-container">
+    <h2>Đăng Ký</h2>
+    <form>
+        <label for="email">Email *</label>
+        <input type="email" id="email" placeholder="Email của bạn" required>
+        
+        <label for="username">Tên đăng nhập *</label>
+        <input type="text" id="username" placeholder="Tên đăng nhập của bạn" required>
+        
+        <label for="password">Mật khẩu *</label>
+        <input type="password" id="password" placeholder="Mật khẩu của bạn" required>
+        
+        <button type="submit">Đăng Ký</button>
+    </form>
 
-        <form action="register" method="post">
-            <label for="email">Your email address *</label>
-            <input type="text" id="email" name="email" placeholder="Your Email Address" required>
-            <label for="password">Password *</label>
-            <input type="password" id="password" name="password" placeholder="Your Password" required>
-
-            <div class="privacy-policy">
-                <input type="checkbox" id="agree-policy" name="agree-policy" required>
-                <label for="agree-policy">I agree to the <a href="#" style="color: #555; text-decoration: underline;">Privacy Policy</a></label>
-            </div>
-
-            <button type="submit">Register</button>
-        </form>
+    <div class="login-link">
+        <p>Đã có tài khoản? <a href="Login.jsp">Đăng Nhập</a></p>
     </div>
+</div>
 
 </body>
 </html>
